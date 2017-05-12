@@ -29,3 +29,5 @@ class Cache {
         return this.data.clear();
     }
 }
+
+module.exports = Cache;
