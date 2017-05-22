@@ -14,6 +14,10 @@ class Cache {
         return this.data.set(key, value);
     }
 
+    has(key) {
+        return this.data.has(key);
+    }
+
     // 读取
     get(key) {
         return this.data.get(key);
